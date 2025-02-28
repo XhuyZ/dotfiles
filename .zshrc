@@ -88,3 +88,7 @@ alias mkdir='mkdir -p'
 # Display pfetch
 pfetch
 echo -ne '\e[5 q'
+#fcitx5
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
