@@ -81,6 +81,8 @@ alias .5='cd ../../../../..'
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
+#Alias dbeaver 
+alias dbeaver='GDK_BACKEND=x11 dbeaver'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
