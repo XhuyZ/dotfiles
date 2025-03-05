@@ -81,8 +81,18 @@ alias .5='cd ../../../../..'
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
+
 #Alias dbeaver 
 alias dbeaver='GDK_BACKEND=x11 dbeaver'
+
+#Alias for SWP project
+alias swpfe='cd ~/SP25_SWP391_HarmonyHub_FE && nvim'
+alias swpbe='cd ~/SP25_SWP391_HarmonyHub_BE && nvim'
+
+#Alias for SWD project
+alias swdfe='cd ~/medical-warehouse-frontend && nvim'
+alias swdbe='cd ~/medical-warehouse-be2/ && nvim'
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
