@@ -81,9 +81,26 @@ alias .5='cd ../../../../..'
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
-
 #Alias dbeaver 
 alias dbeaver='GDK_BACKEND=x11 dbeaver'
+#Alias for SWP project
+alias swpfe='cd ~/SP25_SWP391_HarmonyHub_FE && nvim'
+alias swpbe='cd ~/SP25_SWP391_HarmonyHub_BE && nvim'
+#Alias for SWD project
+alias swdfe='cd ~/SWD-fe-backup/ && nvim'
+alias swdbe='cd ~/SWD-be-backup/ && nvim'
+#Alias for fastfeth
+alias ff='fastfetch'
+#Alias for dotnet watch run
+alias dwr='dotnet watch run'
+#Alias for yay -S 
+alias y='yay -S'
+#Alias for yay -Syyu 
+alias ys='yay -Syyu'
+#Alias for sudo pacman -Syyu
+alias xhuyz='sudo pacman -Syyu'
+
+
 
 #Alias for SWP project
 alias swpfe='cd ~/SP25_SWP391_HarmonyHub_FE && nvim'
