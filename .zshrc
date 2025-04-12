@@ -99,6 +99,13 @@ alias y='yay -S'
 alias ys='yay -Syyu'
 #Alias for sudo pacman -Syyu
 alias xhuyz='sudo pacman -Syyu'
+#Alias for pfa
+alias pfa='cd ~/RiderProjects/PersonalFinanceApp/'
+#Alias for ollama service
+alias ollamacheck='sudo systemctl status ollama.service'
+alias ollamastart='sudo systemctl enable ollama.service'
+alias ollamastop='sudo systemctl disable ollama.service'
+
 
 
 
