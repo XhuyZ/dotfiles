@@ -1,0 +1,27 @@
+[application]
+DefaultPageSize = 300
+DisableSidebar = false
+
+[[database]]
+Name = 'Testnet'
+URL = 'mysql://root:12345@localhost:3306/Testnet'
+Provider = 'mysql'
+Username = ''
+Password = ''
+Hostname = ''
+Port = ''
+DBName = 'Testnet'
+URLParams = ''
+Commands = []
+
+[[database]]
+Name = 'Spring2025HandbagDB'
+URL = 'sqlserver://sa:Wenhui35.@localhost:1433?database=Spring2025HandbagDB&encrypt=true&trustservercertificate=true'
+Provider = 'sqlserver'
+Username = 'sa'
+Password = 'Wenhui35.'
+Hostname = 'localhost'
+Port = '1433'
+DBName = 'Spring2025HandbagDB'
+URLParams = 'encrypt=true&trustservercertificate=true'
+Commands = []
