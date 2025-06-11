@@ -33,7 +33,7 @@ alias scaffold = dotnet ef dbcontext scaffold "Server=localhost;Database=Spring2
 #tmux 
 alias aegis-reset = tmux kill-session -t Aegis+
 alias aegis = tmuxp load ~/.tmuxp/aegis.yaml
-
+alias connect = sqlcmd -S localhost -U sa -C -P 'Wenhui35.' -i ~/sql-scripts/Spring2025HandbagDB.sql
 
 
 
