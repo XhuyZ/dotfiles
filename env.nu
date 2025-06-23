@@ -7,4 +7,8 @@ $env.PATH = ($env.PATH | append [
     "/opt/android-sdk/emulator"
     "/opt/android-sdk/platform-tools"
 ])
+#install fcitx5 -gtk -qt 
+$env.GTK_IM_MODULE = "fcitx"
+$env.QT_IM_MODULE = "fcitx"
+$env.XMODIFIERS = "@im=fcitx"
 
