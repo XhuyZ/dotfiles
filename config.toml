@@ -16,7 +16,7 @@ Commands = []
 
 [[database]]
 Name = 'Spring2025HandbagDB'
-URL = 'sqlserver://sa:Wenhui35.@localhost:1433?database=Spring2025HandbagDB&encrypt=true&trustservercertificate=true'
+URL = 'sqlserver://sa:Wenhui35@@localhost:1433?database=Spring2025HandbagDB&encrypt=true&trustservercertificate=true'
 Provider = 'sqlserver'
 Username = 'sa'
 Password = 'Wenhui35.'
@@ -25,3 +25,42 @@ Port = '1433'
 DBName = 'Spring2025HandbagDB'
 URLParams = 'encrypt=true&trustservercertificate=true'
 Commands = []
+
+[[database]]
+Name = 'BookManagementDb'
+URL = 'sqlserver://sa:Wenhui35@@localhost:1433?database=BookManagementDb&encrypt=true&trustservercertificate=true'
+Provider = 'sqlserver'
+Username = 'sa'
+Password = 'Wenhui35@'
+Hostname = 'localhost'
+Port = '1433'
+DBName = 'BookManagementDb'
+URLParams = 'encrypt=true&trustservercertificate=true'
+Commands = []
+
+[[database]]
+Name = 'FootballMatchAppDB'
+URL = 'sqlserver://sa:Wenhui35@@localhost:1433?database=FootballMatchAppDB&encrypt=true&trustservercertificate=true'
+Provider = 'sqlserver'
+Username = 'sa'
+Password = 'Wenhui35@'
+Hostname = 'localhost'
+Port = '1433'
+DBName = 'FootballMatchAppDB'
+URLParams = 'encrypt=true&trustservercertificate=true'
+Commands = []
+
+[[database]]
+Name = 'LawBasico'
+URL = 'sqlserver://sa:Wenhui35@@localhost:1433?database=LawBasico&encrypt=true&trustservercertificate=true'
+Provider = 'sqlserver'
+Username = 'sa'
+Password = 'Wenhui35@'
+Hostname = 'localhost'
+Port = '1433'
+DBName = 'LawBasico'
+URLParams = 'encrypt=true&trustservercertificate=true'
+Commands = []
+
+
+
