@@ -1,0 +1,13 @@
+session_name: BasicoLaw
+windows:
+  - window_name: Overview
+    layout: tiled
+    focus: true
+    panes:
+      - echo "Welcome XhuyZ"
+  - window_name: fe
+    panes:
+      - cd ~/prn231/dev/; nvim
+  - window_name: be
+    panes:
+      - cd ~/dotfiles/; nvim

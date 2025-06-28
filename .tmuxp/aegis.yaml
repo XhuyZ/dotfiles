@@ -1,0 +1,13 @@
+session_name: Aegis+
+windows:
+  - window_name: emulator
+    layout: tiled
+    focus: true
+    panes:
+      - emulator -avd Aegis
+  - window_name: frontend
+    panes:
+      - cd ~/AegisApp_FE
+  - window_name: backend
+    panes:
+      - cd ~/AegisApp_BE

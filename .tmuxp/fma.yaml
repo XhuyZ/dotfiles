@@ -1,0 +1,16 @@
+session_name: FootballMatchApp
+windows:
+  - window_name: Overview
+    layout: tiled
+    focus: true
+    panes:
+      - emulator -avd Aegis
+  - window_name: fe
+    panes:
+      - cd ~/prm392/fe/FMA_FE/
+  - window_name: be
+    panes:
+      - cd ~/prm392/be/FMA_BE/
+  - window_name: database
+    panes:
+      - lazysql
