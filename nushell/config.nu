@@ -24,16 +24,23 @@ alias xhuyz = sudo pacman -Syyu
 #fastfetch
 alias ff = fastfetch
 #service
+alias serman = bash ~/bash-scripts/services-manager.sh
+alias mysql-enable = sudo systemctl enable mysqld
+alias mysql-disable = sudo systemctl disable mysqld
+alias mysql-status = sudo systemctl status mysqld
+alias mysql-start = sudo systemctl start mysqld
+alias mysql-restart = sudo systemctl restart mysqld
+alias mysql-stop = sudo systemctl stop mysqld
 alias mssql-enable = sudo systemctl enable mssql-server
-alias mssql-start = sudo systemctl start mssql-server
+alias mssql-disable = sudo systemctl disable mssql-server
 alias mssql-status = sudo systemctl status mssql-server
+alias mssql-start = sudo systemctl start mssql-server
+alias mssql-restart = sudo systemctl restart mssql-server
 alias mssql-stop = sudo systemctl stop mssql-server
 #dotnetrun
 alias dr = dotnet run
 #start dbeaver with x11 windowing system
 alias dbeaver = with-env { GDK_BACKEND: "x11" } { dbeaver }
-alias mysql-enable = sudo systemctl enable --now mysqld
-alias mysql-restart = sudo systemctl restart mysqld
 #scaffold dotnet
 alias scaffold = dotnet ef dbcontext scaffold "Server=localhost;Database=FootballMatchAppDB;User Id=sa;Password=Wenhui35@;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
 alias scaffold2 = dotnet ef dbcontext scaffold "Server=localhost;Database=FootballMatchAppDB;User Id=sa;Password=Wenhui35@;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer --context-dir Context --output-dir Entities --context FootballMatchAppContext
