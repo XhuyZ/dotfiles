@@ -13,4 +13,8 @@ windows:
       - cd ~/prm392/be/FMA_BE/
   - window_name: database
     panes:
-      - lazysql
+    - lazysql
+  - window_name: sourcefile
+    panes:
+    - echo sourcing;tmux source-file ~/.tmux.conf
+
