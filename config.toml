@@ -4,7 +4,7 @@ DisableSidebar = false
 
 [[database]]
 Name = 'Testnet'
-URL = 'mysql://root:12345@localhost:3306/Testnet'
+URL = 'mysql://root:Wenhui35@@localhost:3306/Testnet'
 Provider = 'mysql'
 Username = ''
 Password = ''
@@ -60,6 +60,18 @@ Hostname = 'localhost'
 Port = '1433'
 DBName = 'LawBasico'
 URLParams = 'encrypt=true&trustservercertificate=true'
+Commands = []
+
+[[database]]
+Name = 'footballmatchappdb'
+Provider = 'postgres'
+URL = 'postgres://postgres:Wenhui35%40@localhost:5432/footballmatchappdb?sslmode=disable'
+Username = 'postgres'
+Password = 'Wenhui35@'
+Hostname = 'localhost'
+Port = '5432'
+DBName = 'footballmatchappdb'
+URLParams = 'sslmode=disable'
 Commands = []
 
 
